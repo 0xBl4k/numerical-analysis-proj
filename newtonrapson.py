@@ -1,0 +1,1 @@
+# this file for newton-rapson method
