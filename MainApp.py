@@ -1,1 +1,34 @@
 # thats the main app file all other laws and methods will be created outside this file as a class using OOP
+import fixedpoint
+import newtonrapson
+import secant
+import bisection
+
+
+if __name__ == '__main__':
+    print("""hello user to begin with numerical solutions please choose a method by a number:
+    1 - bisection
+    2 - fixed point
+    3 - newton rapson
+    4 - secant""")
+    while True:
+        try:
+            match(int(input("> "))):
+                case 1: 
+                    print("you have choosen bisection method!")
+                    break
+                case 2:
+                    print("you have choosen fixed point method!")
+                    break
+                case 3:
+                    print("you have choosen newton rapson method!")
+                    newtonrapson.Newton()
+                    break
+                case 4:
+                    print("you have choosen secant method!")
+                    break
+                case _:
+                    print("you just entered wrong number please try again!")
+        except ValueError:
+            print("HEY! ONLY NUMBERS I SAID")
+
