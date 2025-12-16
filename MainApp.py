@@ -16,11 +16,11 @@ if __name__ == '__main__':
             match(int(input("> "))):
                 case 1: 
                     print("you have choosen bisection method!")
-
+                    bisection.Bisection()
                     break
                 case 2:
                     print("you have choosen fixed point method!")
-
+                    fixedpoint.FixedPointIteration()
                     break
                 case 3:
                     print("you have choosen newton rapson method!")
