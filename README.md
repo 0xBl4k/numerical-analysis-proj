@@ -3,3 +3,4 @@ like
 - newton rapson method
 - fixed point method
 - secant method
+- bisection method
