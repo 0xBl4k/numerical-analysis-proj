@@ -16,9 +16,11 @@ if __name__ == '__main__':
             match(int(input("> "))):
                 case 1: 
                     print("you have choosen bisection method!")
+
                     break
                 case 2:
                     print("you have choosen fixed point method!")
+
                     break
                 case 3:
                     print("you have choosen newton rapson method!")
@@ -26,9 +28,10 @@ if __name__ == '__main__':
                     break
                 case 4:
                     print("you have choosen secant method!")
+                    secant.secant()
                     break
                 case _:
                     print("you just entered wrong number please try again!")
-        except ValueError:
+        except ValueError: # if u entered string it gonna give u an error
             print("HEY! ONLY NUMBERS I SAID")
 
